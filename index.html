@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet"> 
+	
+
+<style>
+
+
+/* Common CSS Start */
+body{
+	margin: 0;
+    font-family: 'Fredoka One', cursive;
+	line-height: 1.3em;
+}
+.container{
+	max-width: 1140px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.v-center{
+	align-items: center;
+}
+.col-3{
+	width: 33.33%;
+}
+/* Common CSS End */
+
+/* Herader CSS Start */
+.header_area{
+	padding: 15px 0;
+}
+.header_area .header_left{
+	flex: 0 0 17%;
+}
+.header_area .header_left .logo a{
+	text-decoration: none;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: 'Rubik Moonrocks', cursive;
+}
+.header_area .header_center{
+	flex: 0 0 66%;
+	display: flex;
+	justify-content: center;
+}
+.header_area .header_center ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.header_area .header_center ul li{
+	display: inline-block;
+	line-height: 50px;
+	margin-left: 25px;
+	position: relative;
+}
+.header_area .header_center ul li a{
+	text-decoration: none;
+	color: #222;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+}
+.header_area .header_center ul li a:hover{
+	color: coral;
+}
+.header_area .header_right{
+	flex: 0 0 17%;
+	display: flex;
+	justify-content: end;
+}
+.header_area .header_right a{
+	text-decoration: none;
+	color: #222;
+	font-size: 16px;
+	margin-left: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+.header_area .header_right a:hover{
+	color: coral;
+}
+
+/* Sub Menu CSS For UL */
+.header_area .header_center ul li .sub_menu img{
+	width: 600px;
+}
+.header_area .header_center ul li .sub_menu{
+	position: absolute;
+	background-color: white;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	opacity: 0;
+	visibility: hidden;
+}
+.header_area .header_center ul li:hover .sub_menu{
+	opacity: 1;
+	visibility: visible;
+}
+.header_area .header_center ul li .sub_menu ul li{
+	display: block;
+	min-width: 160px;
+	max-width: 300px;
+}
+
+
+/* Herader CSS End */
+
+/* Banner CSS Start */
+/* Banner CSS End */
+
+</style>
+
+</head>
+<body>
+	
+	<div class="header_area">
+		<div class="container">
+			<div class="row v-center">
+				<div class="header_left">
+					<div class="logo">
+						<a href="#">Truelix</a>
+					</div>
+				</div>
+				<div class="header_center">
+					<nav>
+						<ul>
+							<li class="has_sub_menu"><a href="#">Home</a>
+								<div class="sub_menu">
+									<img src="1.png" alt="1">
+								</div>
+							</li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li class="has_sub_menu"><a href="#">Pages</a>
+								<div class="sub_menu">
+									<ul>
+										<li><a href="#">Tour</a></li>
+										<li><a href="#">Travel</a></li>
+										<li><a href="#">Visit</a></li>
+										<li><a href="#">Shoping</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header_right">
+					<a href="#">Facebook</a>
+					<a href="#">Twitter</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
